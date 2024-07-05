@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'caviardreams';
+    src:  url('./caviar_dreams/CaviarDreams.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    font-family: 'caviardreams', sans-serif;
+}
+
+header>h1
+{
+    background-color: #65A69A;
+    text-align: center;
+    color: #F2EBC4;
+}
+
+main
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px; /* Ajuste conforme necessário */
+    padding: 20px; /* Ajuste conforme necessário */
+}
+
+#info, #imagens
+{
+    flex: 1;
+    padding: 20px; /* Ajuste conforme necessário */
+}  
+
+#imagens img
+{
+    max-width: 100%;
+    height: auto;
+}
+  
+footer
+{
+    background-color: #65A69A;
+    font-size:medium ;
+    padding: 1px;
+    color:#F2EBC4;
+}
