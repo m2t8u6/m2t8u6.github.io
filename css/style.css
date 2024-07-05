@@ -7,43 +7,55 @@
     font-style: normal;
 }
 
-body
-{
+body {
     font-family: 'caviardreams', sans-serif;
+    background-color: #F29B30;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header>h1
-{
+header > h1 {
     background-color: #65A69A;
     text-align: center;
     color: #F2EBC4;
+    margin: 0;
+    padding: 20px 0;
 }
 
-main
-{
+main {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 200px; /* Ajuste conforme necessário */
-    padding: 20px; /* Ajuste conforme necessário */
+    align-items: flex-start;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #F2EBC4;
 }
 
-#info, #imagens
-{
+#info, #imagens {
     flex: 1;
-    padding: 20px; /* Ajuste conforme necessário */
-}  
+    padding: 20px;
+}
 
-#imagens img
-{
+#imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagens img {
     max-width: 100%;
     height: auto;
 }
-  
-footer
-{
+
+footer {
     background-color: #65A69A;
-    font-size:medium ;
-    padding: 1px;
-    color:#F2EBC4;
+    font-size: medium;
+    padding: 10px;
+    color: #F2EBC4;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
