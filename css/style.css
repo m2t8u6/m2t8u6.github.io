@@ -33,10 +33,13 @@ main {
     background-color: #ffffff;
 }
 
+/*
 #info, #imagens {
     flex: 1;
     padding: 20px;
 }
+*/
+
 
 #imagens {
     display: flex;
