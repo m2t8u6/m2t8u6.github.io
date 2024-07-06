@@ -38,6 +38,10 @@ main {
     background-color: #ffffff;
 }
 
+main > h1{
+    color: #F2EBC4;
+}
+
 /*
 #info, #imagens {
     flex: 1;
