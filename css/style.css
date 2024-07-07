@@ -13,7 +13,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    position: relative; /* Adicione position: relative; ao body */
+    position: relative;
 }
 
 header > h1 {
@@ -33,9 +33,10 @@ header > p {
 
 main {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: flex-start;
-    height: 100vh;
+    min-height: calc(100vh - 50px);
     padding: 20px;
     box-sizing: border-box;
     background-color: #ffffff;
@@ -47,7 +48,7 @@ footer {
     padding: 10px;
     color: #F2EBC4;
     text-align: center;
-    width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    width: 100%;
 }
