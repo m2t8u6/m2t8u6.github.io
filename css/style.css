@@ -13,6 +13,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    position: relative; /* Adicione position: relative; ao body */
 }
 
 header > h1 {
@@ -46,7 +47,7 @@ footer {
     padding: 10px;
     color: #F2EBC4;
     text-align: center;
-    position: fixed;
-    bottom: 0;
     width: 100%;
+    position: absolute;
+    bottom: 0;
 }
