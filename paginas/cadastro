@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imagens/logo1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Sky-drive cadastro</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/f/skydriveofc06@gmail.com" method="POST">
+
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="idnome" required>
+
+        <label for="numero">Numero (ddd c nnnnnnnn): </label>
+        <input type="text" name="numero" id="idnumero" required>
+
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" required>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
