@@ -15,19 +15,14 @@ body {
     position: relative;
 }
 
-header > h1 {
+header
+{
     font-family: 'caviardreams';
     background-color: #65A69A;
     text-align: center;
     color: #F2EBC4;
     margin: 0;
     padding: 20px 0;
-}
-
-header > p {
-    font-family: 'caviardreams';
-    text-align: center;
-    color: #F2EBC4;
 }
 
 main {
@@ -49,5 +44,4 @@ footer {
     text-align: center;
     bottom: 0;
     width: 100%;
-    height: auto;
 }
