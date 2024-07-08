@@ -25,6 +25,10 @@ header
     padding: 20px 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -46,12 +50,7 @@ footer {
     width: 100%;
 }
 
-nav
-{
-    text-align: center;
-}
-
-.nav {
+nav {
     display: flex;
     justify-content: center;
     margin: 20px 0;
@@ -74,4 +73,10 @@ nav
 .btn-cadastro:hover {
     background-color: #007BFF;
     color: #fff;
+}
+
+nav > a{
+    background-color:#F29B30;
+    border-radius: 3px;
+    color:#65A69A;
 }
