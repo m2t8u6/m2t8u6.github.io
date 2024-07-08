@@ -18,6 +18,9 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
@@ -59,14 +62,12 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #65A69A;
 }
 
 .back-button {
     width: auto;
     padding: 10px;
-    background-color: #ccc;
-    color: #333;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -74,5 +75,5 @@ button:hover {
 }
 
 .back-button:hover {
-    background-color: #aaa;
+    background-color: #65A69A;
 }
