@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
 
 <head>
@@ -7,26 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./imagens/logo1.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/cad.css">
-    <title>Sky-drive cadastro</title>
+    <title>Sky-drive Cadastro</title>
 </head>
 
 <body>
-    <form action="https://formspree.io/f/mdknojgg" method="POST">
+    <div class="container">
+        <form action="https://formspree.io/f/mdknojgg" method="POST">
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="idnome" required>
 
-        <label for="nome">Nome: </label>
-        <input type="text" name="nome" id="idnome" required>
+            <label for="numero">Número: </label>
+            <input type="text" name="numero" id="idnumero" required>
 
-        <label for="numero">Numero: </label>
-        <input type="text" name="numero" id="idnumero" required>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" required>
 
-        <label for="email">Email: </label>
-        <input type="email" name="email" id="email" required>
+            <label for="nota">Mensagem: </label>
+            <input type="text" name="nota" id="idnota">
 
-        <label for="nota">Mensagem: </label>
-        <input type="text" name="nota" id="idnota">
+            <button type="submit">Enviar</button>
+        </form>
 
-        <button type="submit">Enviar</button>
-    </form>
-
-    <button onclick="window.history.back()">Voltar</button>
+        <button class="back-button" onclick="window.history.back()">Voltar</button>
+    </div>
 </body>
+
+</html>
