@@ -46,6 +46,11 @@ footer {
     width: 100%;
 }
 
+nav
+{
+    text-align: center;
+}
+
 .nav {
     display: flex;
     justify-content: center;
