@@ -52,8 +52,16 @@ footer {
 
 nav {
     display: flex;
-    justify-content: center;
-    margin: 20px 0;
+    justify-content: end;
+    margin-left: 1px;
+    margin-right: 18px;
+}
+
+nav > a{
+    background-color:#D9420B;
+    color:#F2EBC4;
+    border-radius: 4px;
+    padding: 4px;
 }
 
 .btn-cadastro {
@@ -75,8 +83,3 @@ nav {
     color: #fff;
 }
 
-nav > a{
-    background-color:#F29B30;
-    border-radius: 3px;
-    color:#65A69A;
-}
