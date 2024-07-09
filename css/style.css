@@ -52,7 +52,7 @@ footer {
 
 nav {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     margin-left: 1px;
     margin-right: 18px;
 }
