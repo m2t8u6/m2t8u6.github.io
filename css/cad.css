@@ -62,7 +62,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #65A69A;
 }
 
 .back-button {
@@ -75,5 +75,5 @@ button:hover {
 }
 
 .back-button:hover {
-    background-color: #0056b3;
+    background-color: #65A69A;
 }
