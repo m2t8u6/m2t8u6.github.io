@@ -2,30 +2,32 @@
 
 @font-face {
     font-family: 'caviardreams';
-    src:  url('./caviar_dreams/CaviarDreams.ttf') format('truetype');
+    src: url('./caviar_dreams/CaviarDreams.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
-body {
+html, body {
+    overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
     font-family: Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     position: relative;
+    width: 100%; /* Garante que o body não ultrapasse a largura da viewport */
 }
 
-header
-{
+header {
     font-family: 'caviardreams';
     background-color: #65A69A;
     text-align: center;
     color: #F2EBC4;
     margin: 0;
     padding: 20px 0;
+    width: 100%; /* Garante que o header não ultrapasse a largura da viewport */
 }
 
-a{
+a {
     text-decoration: none;
     color: #D9420B;
 }
@@ -39,6 +41,7 @@ main {
     padding: 20px;
     box-sizing: border-box;
     background-color: #ffffff;
+    width: 100%; /* Garante que o main não ultrapasse a largura da viewport */
 }
 
 footer {
@@ -48,19 +51,19 @@ footer {
     color: #F2EBC4;
     text-align: center;
     bottom: 0;
-    width: 100%;
+    width: 100%; /* Garante que o footer não ultrapasse a largura da viewport */
 }
 
 nav {
     display: flex;
+    justify-content: center;
     margin-left: 1px;
     margin-right: 18px;
-    justify-content: center;
 }
 
-nav > a{
-    background-color:#D9420B;
-    color:#F2EBC4;
+nav > a {
+    background-color: #D9420B;
+    color: #F2EBC4;
     border-radius: 4px;
     padding: 4px;
 }
@@ -83,4 +86,3 @@ nav > a{
     background-color: #007BFF;
     color: #fff;
 }
-
