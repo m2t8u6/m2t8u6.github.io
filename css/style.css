@@ -27,6 +27,11 @@ header {
     width: 100%;
 }
 
+h1, h2 {
+    font-family: 'caviardreams';
+    color: #D9420B;
+}
+
 a {
     text-decoration: none;
     color: #D9420B;
@@ -42,6 +47,16 @@ main {
     box-sizing: border-box;
     background-color: #ffffff;
     width: 100%;
+}
+
+article {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 20px;
 }
 
 footer {
@@ -85,4 +100,18 @@ nav > a {
 .btn-cadastro:hover {
     background-color: #65A69A;
     color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+ul li:last-child {
+    border-bottom: none;
 }
