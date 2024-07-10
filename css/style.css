@@ -83,6 +83,12 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 768px) {
+    .info-content img {
+        display: none;
+    }
+}
+
 footer {
     background-color: #65A69A;
     font-size: medium;
