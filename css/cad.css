@@ -32,7 +32,7 @@ form {
     width: 100%;
     max-width: 400px;
     margin-bottom: 15px;
-    border: 2px solid #65A69A;
+    border: 2px solid #65A69A; /* Ajuste de cor */
 }
 
 h2 {
@@ -46,7 +46,7 @@ label {
     margin-bottom: 5px;
     font-weight: bold;
     text-align: left;
-    color: #D97823;
+    color: #D97823; /* Ajuste de cor */
 }
 
 input[type="text"],
@@ -55,7 +55,7 @@ textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #65A69A;
+    border: 1px solid #65A69A; /* Ajuste de cor */
     border-radius: 5px;
     box-sizing: border-box;
 }
@@ -77,7 +77,7 @@ button {
 }
 
 button:hover {
-    background-color: #D9420B;
+    background-color: #D9420B; /* Ajuste de cor */
 }
 
 .back-button {
@@ -93,15 +93,35 @@ button:hover {
 }
 
 .back-button:hover {
-    background-color: #D9420B;
+    background-color: #D9420B; /* Ajuste de cor */
 }
 
 .plan-options {
+    display: flex;
+    justify-content: space-around;
     margin-bottom: 15px;
 }
 
-.plan-option {
-    margin-right: 10px;
-    font-weight: bold;
-    color: #65A69A;
+.hidden-radio {
+    display: none;
+}
+
+.plan-button {
+    padding: 10px 20px;
+    background-color: #65A69A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.plan-button:hover {
+    background-color: #D9420B; /* Ajuste de cor */
+    transform: scale(1.05);
+}
+
+input[type="radio"]:checked + label {
+    background-color: #D9420B; /* Ajuste de cor */
 }
