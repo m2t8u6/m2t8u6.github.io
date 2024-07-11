@@ -117,7 +117,6 @@ nav > a {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
-    font-weight: bold;
     text-align: center;
     text-decoration: none;
     transition: background-color 0.3s ease, color 0.3s ease;
