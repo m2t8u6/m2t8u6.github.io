@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'caviardreams';
+    src: url('./caviar_dreams/CaviarDreams.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    overflow-x: hidden;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+}
+
+header {
+    font-family: 'caviardreams';
+    background-color: #65A69A;
+    text-align: center;
+    color: #F2EBC4;
+    margin: 0;
+    padding: 20px 0;
+    width: 100%;
+}
+
+h1, h2 {
+    font-family: 'caviardreams';
+    color: #D9420B;
+}
+
+a {
+    text-decoration: none;
+    color: #D9420B;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height: calc(100vh - 50px);
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+article {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-content ul {
+    flex: 1;
+}
+
+.info-content img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .info-content img {
+        display: none;
+    }
+}
+
+footer {
+    background-color: #65A69A;
+    font-size: medium;
+    padding: 10px;
+    color: #F2EBC4;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-left: 1px;
+    margin-right: 18px;
+}
+
+nav > a {
+    background-color: #D9420B;
+    color: #F2EBC4;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.btn-cadastro {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #007BFF;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-cadastro:hover {
+    background-color: #65A69A;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
