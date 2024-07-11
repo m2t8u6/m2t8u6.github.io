@@ -94,6 +94,14 @@ section {
     }
 }
 
+
+.planos-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
 footer {
     background-color: #65A69A;
     font-size: medium;
