@@ -35,6 +35,11 @@ h1, h2 {
 a {
     text-decoration: none;
     color: #D9420B;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 main {
@@ -113,18 +118,12 @@ nav > a {
     padding: 4px;
 }
 
+a:hover{
+    color: #fff;
+}
+
 .btn-cadastro {
     display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    color: #007BFF;
-    border: 2px solid #007BFF;
-    border-radius: 5px;
-    background-color: #fff;
-    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .btn-cadastro:hover {
