@@ -118,6 +118,10 @@ nav > a {
     padding: 4px;
 }
 
+a:hover{
+    color: #fff;
+}
+
 .btn-cadastro {
     display: inline-block;
 }
